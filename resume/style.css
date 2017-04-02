@@ -1,12 +1,12 @@
 .box {
-  width: calc(95%/3);
-  height: 18rem;
+  width: 31%;
+  height: 300px;
   margin: 0.5rem;
   float: left;
   }
 
 #mother {
-  height:20rem;
+  height:300px;
     padding: 10rem;  
   background-color: #0E2E5D;
 }
@@ -16,22 +16,33 @@
   background-color: #CBAA3E;
 }
 
-#btn {
-  margin: 7rem;
+.btn {
   font: 30px impact;
   border: transparent;
   background-color: #0E2E5D;
   padding: 0.5rem;
+  
+}
+#btn2 {
   color: #CBAA3E;
 }
-#btn:hover {
+#btn2:hover {
   background-color: #0E2E5D;
   color: black;
   transition: 0.5s;
 }
+#btn1 {
+}
+#btn3 {
+ 
+}
 #box1 {
   background-color: #176B27;
+  text-align: center;
 }
+
 #box3 {
   background-color: #BC3939;
+  text-align: center;
+  
 }
