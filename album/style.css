@@ -1,43 +1,58 @@
-.album {
- background-color: white;
-  width: 36%;
+.box {
+  width: 31%;
   height: 300px;
-  float:right;
-  margin: 0.5em;
+  margin: 0.5rem;
+  float: left;
+  }
+
+#mother {
+  height:300px;
+    padding: 10rem;  
+  background-color: #0E2E5D;
+}
+
+#box2{
+  text-align: center;
+  background-color: #CBAA3E;
+}
+
+.btn {
+  font: 30px impact;
+  border: transparent;
+  background-color: #0E2E5D;
+  padding: 0.5rem;
+  
+}
+#btn2 {
+  color: #CBAA3E;
+}
+#btn2:hover {
+  background-color: #0E2E5D;
+  color: black;
+  transition: 0.5s;
+}
+#btn1 {
+  color: #176B27;
+}
+#btn1:hover {
+  background-color: #0E2E5D;
+  color: black;
+  transition: 0.5s;
+}
+#btn3 {
+ color:#BC3939;
+}
+#btn3:hover {
+  background-color: #0E2E5D;
+  color: black;
+  transition: 0.5s;
+}
+#box1 {
+  background-color: #176B27;
   text-align: center;
 }
-  #mother {
-    width: 82%;
-  }
-  img {
-    width: 100%;
-    height: 100%;
-  }
-  #footer {
-    background-color: pink;
-      height:20px;
-    width: 100%;
-  clear: both;
-    text-align: center;
-  }
-  #footer2 {
-    background-color: #FDFF8F;
-    height:20px;
-    width: 100%;
-    clear: both;
-    text-align: center;
-  }
-  #header {
-    background-color: #B2FF8F;
-    height: 20px;
-    width: 100%;
-    clear: both;
-    text-align: center;
-  }
-  #header2 {
-    background-color: #8FE2FF;
-    height:20px;
-    width: 100%;
-    clear:both;
-    text-align: center;
-  }
+
+#box3 {
+  background-color: #BC3939;
+  text-align: center;
+}
