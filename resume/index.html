@@ -1,19 +1,61 @@
 <html>
 
-<head>
-  <title>Jinah Kim</title>
-</head>
+<head>Jinah Kim</head>
+  <body>
+    <script>
+    function name() {
+document.getElementById("box2").innerHTML = "JINAH KIM";
+}
+      </script>
+    <div id = "mother"> 
   
-<style>
-  .head {
-    font: impact;
-  }
-  </style>
+<div class = "box" id = "box1"> 
 
-<body>
-  <div id="head">
-    JINAH KIM
   </div>
-</body>
+  
+ <div class = "box" id = "box2" onclick = "name()" > 
+   <button id = "btn"> ABOUT </button>
+   </div>
+  
+ <div class = "box" id = "box3"> 
+  </div>
+  
+  </div>
+  </body>
+.box {
+  background-color: yellow;
+  width: calc(95%/3);
+  height: 18rem;
+  margin: 0.5rem;
+  float: left;
+  }
 
+#mother {
+  height:20rem;
+    padding: 10rem;  
+}
+
+#box2{
+  text-align: center;
+  background-color: yellow;
+}
+
+#btn {
+  margin: 7rem;
+  font: 30px impact;
+  border: transparent;
+  background-color: transparent;
+  padding: 0.5rem;
+}
+#btn:hover {
+  background-color: white;
+  color: yellow;
+  transition: 0.5s;
+}
+#box1 {
+  background-color: pink;
+}
+#box3 {
+  background-color: #6EC5FE;
+}
 </html>
