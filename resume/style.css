@@ -2,14 +2,13 @@
   width: 31%;
   height: 300px;
   margin: 0.5rem;
-  float: left;
   text-align: center;
+  float: left;
   }
 
 #mother {
-  height:300px;
-    padding: 10rem;  
-  background-color: #0E2E5D;
+  height: 300px;  
+  padding: 10rem;  
 }
 
 #box2{
@@ -57,9 +56,10 @@
   background-color: #BC3939;
 
 }
-.window {
+//.window {
   width: 20px;
   height: 20px;
   background-color: #CDB834;
   margin: 0.6rem;
 }
+
