@@ -56,15 +56,17 @@
   background-color: #BC3939;
 
 }
+p {
+  text-align: center;
+  color: white;
+}
+
 //.window {
   width: 20px;
   height: 20px;
   background-color: #CDB834;
   margin: 0.6rem;
 }
-p {
-  text-align: center;
-  color: white;
-}
+
 
 
