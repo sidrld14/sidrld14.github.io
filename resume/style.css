@@ -3,6 +3,7 @@
   height: 300px;
   margin: 0.5rem;
   float: left;
+  text-align: center;
   }
 
 #mother {
@@ -12,7 +13,6 @@
 }
 
 #box2{
-  text-align: center;
   background-color: #CBAA3E;
 }
 
@@ -24,25 +24,41 @@
   
 }
 #btn2 {
-  color: #CBAA3E;
+  color: black;
 }
 #btn2:hover {
   background-color: #0E2E5D;
-  color: black;
+  color: #CBAA3E;
   transition: 0.5s;
 }
 #btn1 {
+  color: black;
+}
+#btn1:hover {
+  background-color: #0E2E5D;
+  color: #176B27;
+  transition: 0.5s;
 }
 #btn3 {
- 
+ color:black;
+}
+#btn3:hover {
+  background-color: #0E2E5D;
+  color: #BC3939;
+  transition: 0.5s;
 }
 #box1 {
   background-color: #176B27;
-  text-align: center;
+
 }
 
 #box3 {
   background-color: #BC3939;
-  text-align: center;
-  
+
+}
+.window {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  margin: 0.5rem;
 }
